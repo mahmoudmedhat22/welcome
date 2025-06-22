@@ -1,0 +1,19 @@
+{
+    "name": "e-commerce-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "format": "prettier --write .",
+      "start": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "dotenv": "^16.5.0",
+      "ejs": "^3.1.9",
+      "express": "^4.21.2",
+      "mongodb": "^6.17.0",
+      "mongoose": "^7.8.7"
+    }
+  }
